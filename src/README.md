@@ -10,13 +10,15 @@
 - tests -> folder that contains unit tests
 
 ### Running the application
-1. Set up virtual environment - Python version 3.10.1. ``` python -m venv venv```. 
-2. Set the PYTHONPATH in CLI ```export PYTHONPATH=~/bt_group_coding_challenge/src:$PYTHONPATH```
+1. Create a folder on your desktop/ documents. Pull the code from GitHub.
+2. Set up virtual environment - Python version 3.10.1. ``` python -m venv venv```. 
+The venv folder should be on the same level as src folder.
+3. Set the PYTHONPATH in CLI ```export PYTHONPATH=~/bt_group_coding_challenge/src:$PYTHONPATH```
 Activate the virtual env by typing ```source venv/bin/activate``` in CLI if using MacOS.
-3. Enter the src folder in CLI ```cd src```
-4. In CLI, type ```python main.py events.txt``` to run the application with log event data. 
+4. Enter the src folder in CLI ```cd src```
+5. In CLI, type ```python main.py events.txt``` to run the application with log event data. 
 There is no requirements.txt file to install additional libraries.
-5. If you are in src folder, you can run unittest test as follows  ```python -m unittest tests/test_event.py```
+6. If you are in src folder, you can run unittest test as follows  ```python -m unittest tests/test_event.py```
 
 ### How the application works
 1. The application checks for file ext. validation and whether the file exists
